@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:icon="@drawable/ic_status"
+            android:id="@+id/nav_states"
+            android:title="Статусы" />
+        <item
+            android:icon="@drawable/ic_cartridge"
+            android:id="@+id/nav_cartridges"
+            android:title="Картриджи" />
+        <item
+            android:icon="@drawable/ic_printer"
+            android:id="@+id/nav_printers"
+            android:title="Принтеры" />
+    </group>
+    <group>
+        <item
+            android:icon="@drawable/ic_logout"
+            android:id="@+id/logout"
+            android:title="Выйти" />
+    </group>
+</menu>

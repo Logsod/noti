@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation"
+    app:startDestination="@id/nav_states">
+
+    <fragment
+        android:id="@+id/nav_cartridges"
+        android:name="com.losman.noti.view.fragment.cartridge.CartridgesModelFragment"
+        android:label="Картриджы"
+        tools:layout="@layout/fragment_cartridges" />
+    <fragment
+        android:id="@+id/nav_printers"
+        android:name="com.losman.noti.view.fragment.printer.PrintersFragment"
+        android:label="Принтеры"
+        tools:layout="@layout/fragment_printers" />
+    <fragment
+        android:id="@+id/nav_states"
+        android:name="com.losman.noti.StatesFragment"
+        android:label="Статус" />
+</navigation>
